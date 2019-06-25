@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet"  href="Портфолио.css">
+		<script type="text/javascript">
+			function a() {
+		        var a = prompt("Введите a","")
+		        var b = prompt("Введите b","")
+		        var c = prompt("Введите c","")
+		        if (a<0, b<0, c<0) {
+		            alert("false");
+		        }
+		        var max = Math.max(a, b, c);
+		        var min = Math.min(a, b, c);
+		        alert(max - min);
+		    }
+        	function b() {
+				var max = 0;
+				var min = 10
+				var a = min - 0.5 + Math.random() * (max - min + 1)
+				a = Math.round(a)
+				
+				for (var k = 0; k < 5; k++) {	
+					var b = +prompt('Цифра', '');
+					if (b == a) {
+						alert('Вы угадали')
+					break;
+					} else {
+						if (a > b) {
+							alert('Загаданное число больше')
+						}
+						if(a < b) {
+							alert('Загаданное число меньше')
+						}
+						
+					}
+				}
+			}
+			function c() {
+				var input = prompt('','')
+				var mas = input.split(' ');
+				var a = mas[0];
+				var b = mas[1];
+				var aa = 1;
+				var bb = 1
+				for (var i = 1; i <= a - 1; i++) {
+					aa = aa * (i + 1)
+				}
+				for (var k = 1; k <= b - 1; k++) {
+					bb = bb * (k + 1)
+				}
+				while( aa != 0 & bb != 0) {
+					if (aa > bb ) {
+						aa = aa % bb;
+					} else {
+						bb = bb % aa
+					}
+				}
+				alert(aa + bb);
+			}
+    </script>
+	</head>
+	<body>
+		<p class="c"><b>Портфолио</b></p>
+		<div class="img_sky">
+		<div class="a">
+			<p class="b"><u> ОБЩАЯ ИНФОРМАЦИЯ:</u><br>Меня зовут Юля. Мне 15 лет. Я родилась в Санкт-Петербурге. В 2010 поступила в школу номер 506.<br>
+			<u> ДРУГИЕ ЗАНЯТИЯ:</u><br>
+			В 2017 проходила курс по изучению <i>Scratch</i> в организации EPAM, где работает мой папа. В 2018 проходила курс по изучению языка программирования <i>Java</i> также, в организации EPAM. С 2017 прохожу курс СЕГРИС, где я изучила <i> HTML</i>, <i> CSS </i>и <i>JavaScript</i>. В 2019 планирую поступить в колледж ИТМО.
+			</p>
+		</div>
+	</div>
+		<div class="i">
+			<div class="img_sky_2">
+			<div class="d">
+				<p class="e">Темы, которые я освоила хорошо: <br>- Изучение HTML <br>- Изучение CSS <br>- Основы логики <br>- Составление таблиц истинности <br>- Множества <br>- Алгоритмы <br>- Циклы в JavaScript <br>- Массивы <br>- Системы счисления</p>
+			</div>
+			</div>
+			<div class="img_sky_3">
+			<div class="n">
+				<p class="l">Некоторые задания, сделанные при помощи JavaScript</p><br>
+				<div>
+					<p class="o">- Нахождение разности между большим и меньшим числом из трех</p>
+					<input type="button" onclick="a();" class="p" value="Для воспроизведения, нажмите сюда">
+					<p class="o">- Игра "Угадай число"</p>
+					<input type="button" onclick="b();" class="p" value="Для воспроизведения, нажмите сюда">
+					<p class="o">- Нахождение наибольшего общего делимого от факториала A и факториала B</p>
+					<input type="button" onclick="c();" class="p" value="Для воспроизведения, нажмите сюда">
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="k">
+			<div class="img_sky_4">
+			<div class="f">
+				<p class="g">Темы, которые я освоила хуже: <br>- Основы JavaScript <br>- Кванторы <br>- Графика в JavaScript</p>
+			</div>
+			</div>
+			<div class="img_sky_5">
+			<div class="j">
+				<p>Некоторые задания, сделанные при помощи HTML и CSS:</p><br>
+				<a href="file:///C:/Users/%D0%AE%D0%BB%D1%8F/Desktop/%D0%98%D0%A2%D0%9C%D0%9E/%D0%9F%D0%9E%D0%A0%D0%A2%D0%A4%D0%9E%D0%9B%D0%98%D0%9E/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%206.html" class="m">1 задание</a><br>
+				<a href="file:///C:/Users/%D0%AE%D0%BB%D1%8F/Desktop/%D0%98%D0%A2%D0%9C%D0%9E/%D0%9F%D0%9E%D0%A0%D0%A2%D0%A4%D0%9E%D0%9B%D0%98%D0%9E/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%207.html" class="m">2 задание</a><br>
+				<a href="file:///C:/Users/%D0%AE%D0%BB%D1%8F/Desktop/%D0%98%D0%A2%D0%9C%D0%9E/%D0%9F%D0%9E%D0%A0%D0%A2%D0%A4%D0%9E%D0%9B%D0%98%D0%9E/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%208.html" class="m">3 задание</a><br>
+				<a href="file:///C:/Users/%D0%AE%D0%BB%D1%8F/Desktop/%D0%98%D0%A2%D0%9C%D0%9E/%D0%9F%D0%9E%D0%A0%D0%A2%D0%A4%D0%9E%D0%9B%D0%98%D0%9E/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%2021.html" class="m">4 задание</a><br>
+				<a href="file:///C:/Users/%D0%AE%D0%BB%D1%8F/Desktop/%D0%98%D0%A2%D0%9C%D0%9E/%D0%9F%D0%9E%D0%A0%D0%A2%D0%A4%D0%9E%D0%9B%D0%98%D0%9E/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%84%D0%BE%D1%80%D0%BC%D1%8B%20(1).html" class="m">5 задание</a><br>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

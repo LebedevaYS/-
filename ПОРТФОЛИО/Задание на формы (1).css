@@ -1,0 +1,51 @@
+body {
+	font-family: sans-serif;
+}
+.q {
+	display: inline-block;
+	vertical-align: top;
+}
+.w {
+	display: inline-block;
+	vertical-align: top;
+}
+.e {
+	display: inline-block;
+	vertical-align: top;
+	font-weight: bold;
+}
+.r {
+	display: inline-block;
+	vertical-align: top;
+	margin: 18px 0px 0px 0px;
+}
+.t {
+	width: 337px;
+	padding: 0px 0px 129px 0px;
+}
+.y {
+	font-weight: bold;
+}
+.u {
+	margin: 16px 0px 0px 0px;
+}
+.i {
+	margin: 20px 0px 0px 308px;
+}
+h1 {
+	display: inline-block;
+	vertical-align: top;
+	margin: 18px 0px 0px 0px;
+}
+.j {
+	display: inline-block;
+	vertical-align: top;
+	width: 1000px
+}
+.k {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 25px;
+	color: blue;
+	margin: 120px 0px 0px 0px;
+}
